@@ -3,3 +3,11 @@
 
 /* Collection photograph */
 .hero-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,340px);gap:55px;align-items:center}.hero-photo{margin:0}.hero-photo img{display:block;width:100%;height:auto;max-height:510px;object-fit:cover}.hero-photo figcaption{font-size:11px;letter-spacing:.09em;margin-top:10px;color:var(--muted)}.hero-layout h1{font-size:clamp(58px,7vw,100px)}.hero-layout .hero-bottom{display:block}.hero-layout .primary{display:inline-flex;gap:35px;margin-top:12px}.hero-layout .hero-bottom p{max-width:500px}@media(max-width:760px){.hero-layout{grid-template-columns:1fr;gap:35px}.hero-photo{width:min(100%,340px)}.hero-layout h1{font-size:clamp(60px,13vw,90px)}}
+
+/* Combined curated and likely collection */
+.lecture.unverified{padding-left:12px;border-left:3px solid var(--accent)}
+.lecture audio,.lecture video{width:230px;margin-top:7px}
+.lecture video{max-height:180px;background:#17231d}
+.question{display:inline-grid;place-items:center;width:1.45rem;height:1.45rem;margin-left:.4rem;border-radius:50%;background:var(--accent);color:var(--ink);font:700 .75rem/1 'DM Sans',Arial,sans-serif;vertical-align:.25rem}
+.resource-links{display:flex;gap:16px;flex-wrap:wrap}
+@media(max-width:700px){.lecture audio,.lecture video{grid-column:2;width:100%;max-width:330px}}
