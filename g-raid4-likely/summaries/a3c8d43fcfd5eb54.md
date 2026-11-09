@@ -1,0 +1,68 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/asus2/shiurim from dec 25 2009-March 15 2010/jacobson gemara/VN351071.WMA
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 2
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [
+    "Delineation of boundaries does not automatically define the area sold; explicit statement is required to include all within boundaries",
+    "If seller claims only a specific part (e.g., one field in a larger area), it must meet the definition of the property name in the contract",
+    "The term 'field' may be ambiguous when referring to a larger area (e.g., a 'plain' with multiple fields); context determines if it's literal or approximate",
+    "Seller must explicitly state 'I'm selling you everything in these boundaries without exception' to indicate literal inclusion of all areas",
+    "If seller does not make such explicit statement, delineation is considered non-literal and does not imply full inclusion of the marked area"
+  ],
+  "references": [
+    "The text discusses a halacha (Jewish legal ruling) regarding property sales where boundaries are marked but the exact area sold is unclear",
+    "The case involves a seller who delineates outer boundaries of a large property (e.g., 9 fields or a 100x100 foot area) but claims only one field (e.g., the center) is sold",
+    "The text references the concept of 'delineation' (marking boundaries) and its interpretation in Jewish law (halacha) for property transactions",
+    "The term 'plain' (a large area with multiple fields) is contrasted with 'field' (a single plot) to illustrate ambiguity in language usage"
+  ],
+  "speaker_context": [
+    "The speaker is explaining a halacha regarding property sales in Jewish law, focusing on the interpretation of delineated boundaries",
+    "The speaker uses examples of a seller marking outer boundaries of a large property (e.g., 9 fields) but claiming only one field is sold",
+    "The speaker emphasizes that explicit language is required to indicate literal inclusion of all areas within marked boundaries",
+    "The speaker states that if the seller does not explicitly state 'I'm selling everything without exception,' the delineation is non-literal and does not imply full inclusion",
+    "The speaker notes that the term 'field' may be ambiguous when referring to a larger area (e.g., a 'plain') and that context determines the interpretation"
+  ]
+}
+
+## Part 3
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 4
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 5
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+

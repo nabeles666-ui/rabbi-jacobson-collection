@@ -1,0 +1,49 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/hard disk 6 (buffalo1)/Aba all Dec 23 2009/unsorted oct 7 2009+up to dec 23 2009/R. Jacobson/VN350798.WMA
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [
+    "Kiddush wine does not count towards minor suda (a small meal) for kiddush purposes",
+    "Must drink a full Revis (cheekful) plus a little more than half for kiddush without having miscellaneous (impurities)",
+    "Mizzone's (a type of fruit) is preferred for kiddush",
+    "Kiddush can be made with wine or grape juice, not food",
+    "Allowed to eat between shacharit and musaf (early morning and afternoon prayers) but limited to a kebeitsa (about two-thirds of a slice of bread) of bread",
+    "Must have bread at each of the three meals (shacharit, afternoon, evening)",
+    "Should eat davga (a type of bread) if possible",
+    "If eating a lot of pastas, must eat at least mizainas (a type of bread) to maintain proper meal structure",
+    "Avoid overeating to prevent issues with shalloy (a type of meal) and ensure proper consumption of bread with food",
+    "Learning before and after meals is preferred over eating"
+  ],
+  "references": [
+    "Sifjord Dalen (likely a mispronunciation of a Jewish text or concept)",
+    "Mizzoyness (likely a mispronunciation of a Jewish concept)",
+    "Yaitse (likely a mispronunciation of 'yaitse' meaning 'to be valid' or 'to be correct' in Hebrew)",
+    "Kiddish (likely a mispronunciation of 'kiddush' meaning 'blessing' in Hebrew)",
+    "Suda (likely a mispronunciation of 'sudah' meaning 'meal' in Hebrew)",
+    "Revis (likely a mispronunciation of 'revi' meaning 'cheekful' in Hebrew)",
+    "Mizzone's (likely a mispronunciation of 'miznun' or 'miznun' meaning a type of fruit)",
+    "Kizayas (likely a mispronunciation of 'kizayim' meaning a type of fruit)",
+    "Kebeitsa (likely a mispronunciation of 'kebeitzah' meaning a small amount of bread)",
+    "Shacharit (early morning prayer)",
+    "Musaf (additional prayer)",
+    "Davga (a type of bread)",
+    "Mizainas (a type of bread)",
+    "Shalloy (likely a mispronunciation of 'shalay' meaning a type of meal)",
+    "Lemaisah (likely a mispronunciation of 'lemaisah' meaning 'if you are stuffed')",
+    "Shawls (likely a mispronunciation of 'sholay' meaning a type of meal)"
+  ],
+  "speaker_context": [
+    "Speaker mentions 'Sifjord Dalen' as the context for discussion",
+    "Speaker refers to 'Mizzoyness' as a concept related to kiddush",
+    "Speaker discusses the requirements for kiddush (blessing over wine) and the importance of bread in meals",
+    "Speaker mentions the need to avoid overeating to prevent issues with shalloy (a type of meal)",
+    "Speaker states that learning before and after meals is preferred over eating"
+  ]
+}
+

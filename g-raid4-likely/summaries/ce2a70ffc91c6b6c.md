@@ -1,0 +1,35 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/hard disk 6 (buffalo1)/Aba all Dec 23 2009/unsorted oct 7 2009+up to dec 23 2009/R. Jacobson/VN350716.WMA
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 2
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": [
+    "khakhamim it's a neither one knows so you don't pay right?"
+  ]
+}
+
+## Part 3
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+

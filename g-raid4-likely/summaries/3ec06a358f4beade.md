@@ -1,0 +1,85 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/sdhc2/shiurim from dec 25 2009-March 15 2010/jacobson gemara/VN351100.WMA
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [
+    "If a person is a Mahdish field, he can teach at school",
+    "The sale of a house or field may leave out certain items",
+    "If you sell two trees, the buyer is not entitled to any land",
+    "If you sell three trees, the buyer gets the land with it",
+    "The land underneath a tree is included in the sale when selling trees",
+    "Rabbi Akiva says when selling, one sells generously",
+    "The sycamore tree and caribou tree are included in the sale even if not sold generously",
+    "The sycamore tree turns into the buyer's property because it draws nutrients from the buyer's land",
+    "Water pits are not included in the sale when selling trees"
+  ],
+  "references": [
+    "Oma Ravune",
+    "Abun",
+    "Shioshneilon",
+    "Rabbi Akiva",
+    "Abishimin",
+    "Shimon Uyma",
+    "Ha Maktish asasada"
+  ],
+  "speaker_context": [
+    "Oma Ravune said: I found the Omur Rabbonam",
+    "Omar al-Hunaym, Al-Hunaym said",
+    "Abun says",
+    "Shimon Uyma said"
+  ]
+}
+
+## Part 2
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 3
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 4
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": [
+    "He is the Ali of the Rabbi Akiba."
+  ]
+}
+
+## Part 5
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+
+## Part 6
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [],
+  "references": [],
+  "speaker_context": []
+}
+

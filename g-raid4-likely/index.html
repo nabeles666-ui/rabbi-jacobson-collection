@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Likely Rabbi Jacobson — G-RAID4</title>
+<style>
+body{font:16px system-ui;max-width:1050px;margin:32px auto;padding:0 18px;color:#172033}h1{margin-bottom:6px}.notice{background:#fff4ce;border:1px solid #e0bd53;padding:14px;border-radius:10px}input{width:100%;box-sizing:border-box;padding:12px;font-size:17px;margin:18px 0}article{border-bottom:1px solid #ccd3df;padding:16px 0}small{overflow-wrap:anywhere;color:#526078}a{margin-right:16px}button{padding:5px 10px}pre{white-space:pre-wrap;background:#f5f7fa;padding:12px;max-height:420px;overflow:auto}
+</style>
+<h1>Likely Rabbi Jacobson — G-RAID4</h1>
+<p class="notice">Machine-generated transcripts and summaries. Speaker attribution is based primarily on filenames and folder paths and is not human-verified. Review the source audio before quoting or publishing conclusions.</p>
+<input id="q" placeholder="Search filenames and source paths">
+<p id="count">Loading…</p><main id="results"></main>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
+let data=[];async function showText(url,el){let r=await fetch(url),t=await r.text();el.innerHTML='<pre>'+esc(t)+'</pre>'}
+function render(){let q=document.querySelector('#q').value.toLowerCase();let rows=data.filter(x=>(x.filename+' '+x.path).toLowerCase().includes(q));document.querySelector('#count').textContent=`${rows.length} recordings`;document.querySelector('#results').innerHTML=rows.map((x,i)=>`<article><h2>${esc(x.filename)}</h2><small>${esc(x.path)}</small><p>${x.duration_seconds?Math.round(x.duration_seconds/60)+' minutes':'Duration unavailable'} · ${esc(x.confidence)}</p><a href="${x.media}">Audio/video</a><a href="${x.transcript}">Transcript</a>${x.summary?`<a href="${x.summary}">Summary</a>`:'Summary unavailable'} <button onclick="showText('${x.transcript}',document.querySelector('#p${i}'))">Preview transcript</button><div id="p${i}"></div></article>`).join('')}
+fetch('catalog.json').then(r=>r.json()).then(x=>{data=x;render()});document.querySelector('#q').oninput=render;
+</script>

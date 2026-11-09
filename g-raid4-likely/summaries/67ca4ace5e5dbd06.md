@@ -1,0 +1,33 @@
+# Shiur summary — machine generated, review required
+
+Source: /Volumes/G-RAID4/hard disk 6 (buffalo1)/Aba all Dec 23 2009/aba all Oct. 2009/aba/ May 18 2009 desktop/rabbis shurim/r.jacobson/r.yona 4 who don't see shechina.WMA
+
+Speaker identity: see catalog for provisional contextual attribution. Identity is not verified.
+
+## Part 1
+
+{
+  "subject": "Unclear fragment",
+  "principal_teachings": [
+    "People who scorn others due to perceived inferior success (manifesting arrogance)",
+    "People who undermine important things without intending to deny their importance but through joking",
+    "People who waste time on socializing and idle chatter (schmoozing) as a regular lifestyle, contradicting the pursuit of perfection",
+    "The need for minimal social interaction (shmuzing) to avoid mental health issues while avoiding excessive socializing",
+    "Friends are for bored people; those pursuing perfection are not bored",
+    "Shabbos is a time for socializing, not for deep spiritual engagement"
+  ],
+  "references": [
+    "Late sonnus (schmoozing)",
+    "Miu Tzicha (minimal shmuzing)",
+    "Chayim Kenevsky",
+    "Adirabah of Chayim Kenevsky",
+    "Tammdei Chochamim"
+  ],
+  "speaker_context": [
+    "Speaker describes categories of 'late sonnus' (schmoozing) as a form of behavior that undermines important things",
+    "Speaker references Chayim Kenevsky's interpretation of 'Miu Tzicha' as minimal shmuzing",
+    "Speaker mentions Miller's extreme views on time management and perfectionism",
+    "Speaker discusses the tension between socializing and spiritual pursuit of perfection"
+  ]
+}
+
