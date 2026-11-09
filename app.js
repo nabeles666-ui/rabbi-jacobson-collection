@@ -21,7 +21,7 @@ function normalizeLikely(item, index) {
     duration: Number(item.duration_seconds) || 0,
     date: foundYear === 'undated' ? '' : foundYear,
     year: foundYear,
-    audio: item.media,
+    audio: item.media.replace(/\.wma$/i, '.mp3'),
     transcript: item.transcript ? `g-raid4-likely/${item.transcript}` : null,
     summaryUrl: item.summary ? `g-raid4-likely/${item.summary}` : null,
     path: item.path,
