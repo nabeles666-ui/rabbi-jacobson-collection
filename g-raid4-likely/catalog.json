@@ -2446,5 +2446,53 @@
     "transcript": "transcripts/f6a9adfe24e63be8.txt",
     "summary": "summaries/f6a9adfe24e63be8.md",
     "media": "https://github.com/nabeles666-ui/rabbi-jacobson-collection/releases/download/g-raid4-likely-media/f6a9adfe24e63be8.wma"
+  },
+  {
+    "id": "jacobson-video-benyamin-1",
+    "filename": "Benyamin 1.mp4",
+    "path": "/Volumes/G-RAID4/owc mercury 2/benyomin/benyamin 1.mp4",
+    "duration_seconds": 3445.712381,
+    "speaker": "Rabbi Jacobson",
+    "confidence": "user identified from Benyomin/Jacobson archive context",
+    "evidence": "User directed that the Benyomin-folder videos are Rabbi Jacobson recordings.",
+    "transcript": null,
+    "summary": null,
+    "media": "https://github.com/nabeles666-ui/rabbi-jacobson-collection/releases/download/g-raid4-likely-media/jacobson-video-benyamin-1.mp4"
+  },
+  {
+    "id": "jacobson-video-benyamin-2",
+    "filename": "Benyamin 2.mp4",
+    "path": "/Volumes/G-RAID4/owc mercury 2/benyomin/benyamin2.mp4",
+    "duration_seconds": 3752.385719,
+    "speaker": "Rabbi Jacobson",
+    "confidence": "user identified from Benyomin/Jacobson archive context",
+    "evidence": "User directed that the Benyomin-folder videos are Rabbi Jacobson recordings.",
+    "transcript": null,
+    "summary": null,
+    "media": "https://github.com/nabeles666-ui/rabbi-jacobson-collection/releases/download/g-raid4-likely-media/jacobson-video-benyamin-2.mp4"
+  },
+  {
+    "id": "jacobson-video-benyomin-5",
+    "filename": "Benyomin 5.mp4",
+    "path": "/Volumes/G-RAID4/owc mercury 2/benyomin/benyomin5.mp4",
+    "duration_seconds": 2059.29263,
+    "speaker": "Rabbi Jacobson",
+    "confidence": "user identified from Benyomin/Jacobson archive context",
+    "evidence": "User directed that the Benyomin-folder videos are Rabbi Jacobson recordings.",
+    "transcript": null,
+    "summary": null,
+    "media": "https://github.com/nabeles666-ui/rabbi-jacobson-collection/releases/download/g-raid4-likely-media/jacobson-video-benyomin-5.mp4"
+  },
+  {
+    "id": "jacobson-video-benyomin-6",
+    "filename": "Benyomin 6.mp4",
+    "path": "/Volumes/G-RAID4/owc mercury 2/benyomin/benyomin6.mp4",
+    "duration_seconds": 1692.592593,
+    "speaker": "Rabbi Jacobson",
+    "confidence": "user identified from Benyomin/Jacobson archive context",
+    "evidence": "User directed that the Benyomin-folder videos are Rabbi Jacobson recordings.",
+    "transcript": null,
+    "summary": null,
+    "media": "https://github.com/nabeles666-ui/rabbi-jacobson-collection/releases/download/g-raid4-likely-media/jacobson-video-benyomin-6.mp4"
   }
 ]
