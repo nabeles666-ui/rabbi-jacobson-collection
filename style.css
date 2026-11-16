@@ -11,3 +11,16 @@
 .question{display:inline-grid;place-items:center;width:1.45rem;height:1.45rem;margin-left:.4rem;border-radius:50%;background:var(--accent);color:var(--ink);font:700 .75rem/1 'DM Sans',Arial,sans-serif;vertical-align:.25rem}
 .resource-links{display:flex;gap:16px;flex-wrap:wrap}
 @media(max-width:700px){.lecture audio,.lecture video{grid-column:2;width:100%;max-width:330px}}
+
+.video-cta { margin-left: 2rem; }
+.video-section { padding: clamp(3rem, 6vw, 6rem) clamp(1.3rem, 5vw, 5rem); background: var(--paper); scroll-margin-top: 1rem; }
+.video-intro { max-width: 720px; line-height: 1.6; color: var(--ink); }
+.video-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; margin-top: 2rem; }
+.video-card { padding: 1.4rem; border: 1px solid var(--line); background: var(--paper); min-width: 0; }
+.video-card h3 { font-size: 1.6rem; font-weight: 400; margin: 0 0 .5rem; }
+.video-card video { display: block; width: 100%; max-height: none; aspect-ratio: 16 / 9; object-fit: contain; margin: 1rem 0; background: #101813; }
+.watch-video { background: var(--ink); color: var(--paper); border-radius: .3rem; padding: .85rem 1.2rem; font-size: .85rem; }
+.watch-video[hidden] { display: none; }
+.video-status { min-height: 1.4em; color: var(--ink); font: .9rem/1.5 system-ui, sans-serif; }
+.video-card .resource-links { font-size: .9rem; line-height: 1.6; }
+@media (max-width: 760px) { .video-gallery { grid-template-columns: 1fr; } .video-cta { margin-left: 0; display: flex; width: fit-content; margin-top: 1rem; } }

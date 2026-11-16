@@ -41,12 +41,12 @@ function render() {
   let rows = lectures.filter(item => {
     const yearMatch = year.value === 'all' || (year.value === 'likely' ? item.unverified : item.year === year.value);
     const searchable = [item.title, item.summary, item.text, item.filename, item.path].join(' ').toLocaleLowerCase();
-    return yearMatch && (!query || searchable.includes(query));
+    return !isVideo(item.audio) && yearMatch && (!query || searchable.includes(query));
   });
   if (sort.value === 'title') rows.sort((a, b) => a.title.localeCompare(b.title));
   if (sort.value === 'short') rows.sort((a, b) => a.duration - b.duration);
   if (sort.value === 'new') rows.sort((a, b) => String(b.date).localeCompare(String(a.date)));
-  count.textContent = `${rows.length} of ${lectures.length} recordings`;
+  count.textContent = `${rows.length} of ${lectures.filter(item => !isVideo(item.audio)).length} audio recordings`;
   list.innerHTML = rows.length ? rows.map((item, index) => `<article class="lecture${item.unverified ? ' unverified' : ''}" id="${esc(item.id)}">
     <span class="number">${String(index + 1).padStart(2, '0')}</span>
     <div>
@@ -72,11 +72,35 @@ document.addEventListener('play', event => {
 
 Promise.all([
   fetch('lectures.json?v=20261109').then(response => { if (!response.ok) throw Error('Could not load curated index'); return response.json(); }),
-  fetch('g-raid4-likely/catalog.json?v=20261109').then(response => { if (!response.ok) throw Error('Could not load likely index'); return response.json(); })
+  fetch('g-raid4-likely/catalog.json?v=20261116videos').then(response => { if (!response.ok) throw Error('Could not load likely index'); return response.json(); })
 ]).then(([curated, likely]) => {
   lectures = [...curated.map(item => ({...item, unverified: false})), ...likely.map(normalizeLikely)];
+  renderVideos();
   render();
 }).catch(error => {
   count.textContent = 'Collection unavailable';
   list.innerHTML = `<p>The collection index could not load (${esc(error.message)}). Please reload the page.</p>`;
 });
+
+function renderVideos() {
+  const items = lectures.filter(item => isVideo(item.audio));
+  document.querySelector('#videoCount').textContent = items.length;
+  document.querySelector('#videoGallery').innerHTML = items.map((item, index) => {
+    const key = item.id.replace(/^likely-/, '');
+    const title = 'Video ' + (index + 1) + ' · ' + item.title.replace(/\.[^.]+$/, '');
+    return `<article class="video-card" id="${esc(item.id)}"><h3>${esc(title)}</h3><p class="meta">${Math.round(item.duration / 60) + ' min'}</p><video controls playsinline preload="none" poster="images/video-posters/${esc(key)}.jpg" aria-label="${esc(title)}"><source src="${esc(item.audio)}" type="video/mp4"></video><button class="watch-video" type="button">▶ Watch video</button><p class="video-status" aria-live="polite"></p><p class="resource-links"><a href="${esc(item.audio)}" target="_blank" rel="noopener">Open video separately ↗</a>${item.transcript ? `<a href="${esc(item.transcript)}" target="_blank" rel="noopener">Read transcript →</a>` : ''}${item.summaryUrl ? `<a href="${esc(item.summaryUrl)}" target="_blank" rel="noopener">Read summary →</a>` : ''}</p></article>`;
+  }).join('');
+  document.querySelectorAll('.video-card').forEach(card => {
+    const video = card.querySelector('video');
+    const button = card.querySelector('.watch-video');
+    const status = card.querySelector('.video-status');
+    button.addEventListener('click', () => {
+      status.textContent = 'Loading video…';
+      video.play().catch(() => { status.textContent = 'Unable to start here. Try the player’s Play control or open the video separately.'; });
+    });
+    video.addEventListener('waiting', () => { status.textContent = 'Loading video…'; });
+    video.addEventListener('playing', () => { status.textContent = ''; button.hidden = true; });
+    video.addEventListener('pause', () => { button.hidden = false; button.textContent = '▶ Continue watching'; });
+    video.addEventListener('error', () => { status.textContent = 'Unable to load the video. Please try “Open video separately” below.'; });
+  });
+}

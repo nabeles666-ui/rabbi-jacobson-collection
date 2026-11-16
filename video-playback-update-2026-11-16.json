@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-16",
+  "videoCount": 5,
+  "format": "H.264 video with AAC audio in fast-start MP4",
+  "allConvertedFilesDecodedSuccessfully": true,
+  "originalAssetsPreserved": true,
+  "audioOnlyMovConvertedToMp3": "39125704a1152738",
+  "videoIds": [
+    "98143f54b2c9219d",
+    "jacobson-video-benyamin-1",
+    "jacobson-video-benyamin-2",
+    "jacobson-video-benyomin-5",
+    "jacobson-video-benyomin-6"
+  ]
+}
